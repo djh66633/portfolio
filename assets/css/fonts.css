@@ -1,0 +1,52 @@
+/* 本地子集字体 —— 不依赖境外 CDN
+   · Noto Sans SC：按页面实际用字子集化（静态字重 200/300/400/500）
+   · Space Grotesk / JetBrains Mono：拉丁基础子集，可变字重
+   修改页面文案后请执行 python tools/build_fonts.py 重新生成 */
+
+@font-face {
+  font-family: "Noto Sans SC";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("../fonts/noto-light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Noto Sans SC";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("../fonts/noto-light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Noto Sans SC";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/noto-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Noto Sans SC";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/noto-medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+  src: url("../fonts/space-grotesk.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  font-style: normal;
+  font-weight: 100 800;
+  font-display: swap;
+  src: url("../fonts/jetbrains-mono.woff2") format("woff2");
+}
